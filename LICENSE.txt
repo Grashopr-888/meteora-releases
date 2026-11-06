@@ -1,0 +1,42 @@
+METEORA 0.3 — FREEWARE LICENCE
+
+Copyright (c) 2026 Grashopr. All rights reserved.
+
+"The Software" means Meteora 0.3 (the VST3 plug-in and the Standalone application), its presets, the site data
+inside it, and its documentation.
+
+1. Permission. You may download, install and use the Software free of charge, on any number of computers you
+   own or control, for any purpose, including making, performing, recording, publishing and selling music and
+   other audio. Sound you make with the Software is yours; no credit or fee is owed.
+
+2. Restrictions. You may not:
+   a. sell, rent, lease, sublicense or otherwise charge for the Software, alone or as part of another product;
+   b. redistribute the Software or make it available for download anywhere other than the official release page
+      (https://github.com/Grashopr-888/meteora-releases/releases), for example on another website, file-sharing
+      service or bundle; link to the release page instead;
+   c. modify, adapt, translate, decompile, disassemble or reverse engineer the Software, or create derivative
+      works from it, except to the extent that applicable law expressly permits this despite this restriction;
+   d. remove or change any copyright, licence or attribution notice in the Software or its documentation.
+
+3. Third-party components and data. The Software contains components and data from others, each under its own
+   licence: see THIRD-PARTY-NOTICES.txt and DATA-NOTICES.md. Those licences apply to those parts and take
+   precedence where they grant you more rights. In particular, the OpenStreetMap-derived site data is made
+   available under the Open Database License as described in DATA-NOTICES.md, and nothing in section 2 restricts
+   the rights that licence gives you in that data.
+
+4. No warranty. The Software is a free preview provided "AS IS", without warranty of any kind, express or implied,
+   including the warranties of merchantability, fitness for a particular purpose and non-infringement. Its sound
+   is a simulation from open data and is not a measurement of any real place. You use it at your own risk; keep
+   backups of your projects.
+
+5. Limitation of liability. To the extent permitted by law, Grashopr, and the authors and licensors of the
+   third-party components in the Software (including Raw Material Software Limited, the publisher of JUCE), are
+   not liable for any damages, including loss of data, profits or work, arising from the use of or inability to
+   use the Software, even if advised of the possibility of such damages.
+
+6. Termination. This licence ends automatically if you break its terms. You must then stop using the Software and
+   delete every copy.
+
+7. Updates. Later versions of Meteora may come with different terms. These terms apply to Meteora 0.3.
+
+Contact: https://github.com/Grashopr-888/meteora-releases/issues
