@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or write about Meteora, please cite it as below."
+title: "Meteora: a reverb computed from a real landscape"
+type: software
+authors:
+  - family-names: Eriksen
+    given-names: Trent
+    alias: Grashopr
+    affiliation: "Independent researcher"
+repository-artifact: "https://github.com/Grashopr-888/meteora-releases/releases"
+url: "https://grashopr-888.github.io/current-projects/projects/meteora/"
+date-released: 2026-11-06
+version: 0.3.0
+abstract: >-
+  A free reverb plug-in for macOS (VST3 and Standalone) whose space is computed from open terrain data of
+  Meteora, Greece, with two movable microphones, weather-dependent air absorption, and a listener that can
+  suggest or make changes to the settings. Closed-source freeware; released as a research preview for
+  ADC 2026, Bristol.
+keywords:
+  - reverb
+  - audio plug-in
+  - geometric acoustics
+  - open data
+  - Meteora

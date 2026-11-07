@@ -1,8 +1,28 @@
-# Meteora 0.3
+# Meteora
 
-**A reverb made from a real landscape.** Meteora places your sound among the rock pillars and monasteries of
-Meteora, in Thessaly, Greece, and lets you move the microphones through the valley. Echoes come back from the cliff
-faces at their real distances, through air that changes with temperature, humidity and wind.
+**Trent Eriksen** (Grashopr) · a reverb computed from a real landscape<br>
+Version 0.3.0 · research preview released for ADC 2026, the Audio Developer Conference, Bristol
+
+[![Download](https://img.shields.io/github/v/release/Grashopr-888/meteora-releases?label=download&color=2E7D32)](https://github.com/Grashopr-888/meteora-releases/releases/latest)
+[![Video](https://img.shields.io/badge/video-YouTube-c4302b)](https://www.youtube.com/watch?v=vMqgGGazfks)
+[![Platform](https://img.shields.io/badge/macOS-Apple%20Silicon-454955)](#requirements)
+[![Formats](https://img.shields.io/badge/formats-VST3%20%C2%B7%20Standalone-22262E)](#install)
+[![Price](https://img.shields.io/badge/price-free-6FCF8F)](LICENSE.txt)
+[![Licence](https://img.shields.io/badge/licence-freeware%2C%20closed%20source-7F8592)](LICENSE.txt)
+[![Data](https://img.shields.io/badge/site%20data-ODbL-7F8592)](DATA-NOTICES.md)
+[![Project page](https://img.shields.io/badge/project-page-6FCF8F)](https://grashopr-888.github.io/current-projects/projects/meteora/)
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=vMqgGGazfks"><img src="images/video-thumbnail.jpg" width="760"
+     alt="The Meteora 0.3 panel with a play button: watch the preview video on YouTube"></a>
+  <br><sub><a href="https://www.youtube.com/watch?v=vMqgGGazfks">Watch the preview video</a></sub>
+</p>
+
+## About
+
+Meteora places your sound among the rock pillars and monasteries of Meteora, in Thessaly, Greece, and lets you move
+two microphones through the valley. Echoes come back from the cliff faces at their real distances and directions,
+through air that changes with temperature, humidity and wind.
 
 *Simulated from open data · uncalibrated.* No recordings were made on site. The landscape is computed from open
 elevation and map data (Copernicus, OpenStreetMap), and where that data is too coarse the pillars are sharpened.
@@ -12,19 +32,22 @@ Version 0.3 also **listens**: it hears your attacks, density, brightness, pitch 
 settings or move them for you (OFF · LISTEN · SETTINGS · PATCH · ALIVE, from subtle to drastic). Whenever it leaves
 the physics, the panel says so with the EXTREME lamp.
 
-Free to use. Closed source. A preview release for the Audio Developer Conference (Bristol, 9–11 November 2026).
+## The panel
 
-![Meteora 0.3, the panel in its dark grey theme, with cables patched](images/panel.png)
+<p align="center"><img src="images/panel.png" width="760"
+  alt="The Meteora 0.3 panel in its dark grey theme: placement of the source and two microphones, the 3D site model with the echo paths, the echo scope, the air, microphone, distance, wind, turbulence, faces, shape and output modules, and the patch row with the listener and ALIVE modules"></p>
 
-![The site model: the terrain as contour lines, the two microphones and the echo paths](images/site-model.png)
+The site model in the middle shows the terrain as contour lines, the source and both microphones, and the echo paths
+to the rock faces that answer; the echo scope under it shows every echo and the tail. Around it, modules after the
+Buchla 200 series set the placement, the air, the microphones (modelled polar patterns), the distance, the wind, the
+faces and the shape of the tail. The patch row at the bottom routes random, function, follower, listener and
+oscillator sources into any control. **LEARN** mode explains every control.
 
 ## Download
 
 **Meteora-0.3.0-macOS-arm64.zip** from the
 [Releases page](https://github.com/Grashopr-888/meteora-releases/releases/latest). The SHA-256 checksum is on the
-same page.
-
-To check the download (optional), in Terminal:
+same page. To check the download (optional), in Terminal:
 
 ```bash
 shasum -a 256 ~/Downloads/Meteora-0.3.0-macOS-arm64.zip
@@ -42,7 +65,7 @@ The result must match the checksum on the release page.
 
 ## Install
 
-The zip holds `Meteora 0.3.vst3` (the plug-in), `Meteora 0.3.app` (the Standalone app), this README and the licence.
+The zip holds `Meteora 0.3.vst3` (the plug-in), `Meteora 0.3.app` (the Standalone app), this README and the notices.
 
 1. **Unzip** the download (double-click it).
 2. **The plug-in:** move `Meteora 0.3.vst3` into your VST3 folder, `~/Library/Audio/Plug-Ins/VST3/`.
@@ -75,8 +98,8 @@ files somewhere else, change the paths.
 Meteora 0.3; confirm with your password. For the plug-in, do the same after your host has tried to load it and
 macOS has shown the warning. (On macOS 15 and later, Control-click → Open no longer skips this step.)
 
-Why this is safe to do for this file: the checksum on the release page lets you confirm that the zip is the one
-published. Notarisation is planned for version 1.0, after which this step goes away.
+The checksum on the release page lets you confirm that the zip is the one published. Notarisation is planned for
+version 1.0, after which this step goes away.
 
 ### First run
 
@@ -128,7 +151,7 @@ no other version of Meteora is installed and you no longer want your presets.
 
 ## Known limits of 0.3
 
-This is a preview. Please report what you find (next section).
+This is a research preview. Please report what you find (next section).
 
 - **Apple Silicon and VST3 / Standalone only**: no Intel, AU (Logic), AAX (Pro Tools) or Windows yet.
 - **Not notarised**: the one-time step under *Install*.
@@ -153,14 +176,23 @@ Open an issue on this repository's
 - what you did, what you heard or saw, and what you expected,
 - the preset, if any, and for the ALIVE modes the exported ALIVE log.
 
-## About
+## What is here, and what is not
 
-Meteora is an artistic-research project by Grashopr. It asks what a reverb can be when its space is a real place
-you can move through, computed from open data.
+| Path | What |
+|---|---|
+| `README.md` | this page |
+| `LICENSE.txt` | the freeware licence for Meteora 0.3 |
+| `DATA-NOTICES.md` | the Copernicus and OpenStreetMap notices; the site data inside the plug-in is open under the ODbL |
+| `THIRD-PARTY-NOTICES.txt` | JUCE, three.js and the other components inside the plug-in, with their full licence texts |
+| `CHANGELOG.md` | what each version changed |
+| `CITATION.cff` | how to cite Meteora |
+| Releases | the plug-in itself, with its SHA-256 checksum |
 
-Meteora is a UNESCO World Heritage Site and a living monastic community. This plug-in is an acoustic model made from
-public data. It is not affiliated with or endorsed by the monasteries of Meteora or the Holy Metropolis of
-Stagoi and Meteora.
+- **The source code** is not here: Meteora is closed-source freeware. It is built with JUCE under the JUCE Starter
+  licence.
+- **The research notes and design documents** stay private while the project decides what it becomes.
+- **The site data** is inside the plug-in, readable, in `Meteora 0.3.vst3/Contents/Resources/pack/`, and open under
+  the ODbL (see `DATA-NOTICES.md`).
 
 ## Licence and credits
 
@@ -178,9 +210,33 @@ The landscape is made from:
 - **OpenStreetMap**: contains information from [OpenStreetMap](https://www.openstreetmap.org/copyright), made
   available under the Open Database License (ODbL). © OpenStreetMap contributors.
 
-The site data inside the plug-in is open under the ODbL. Details, and where to download the OpenStreetMap-derived
-data: [DATA-NOTICES.md](DATA-NOTICES.md).
+Meteora is a UNESCO World Heritage Site and a living monastic community. This plug-in is an acoustic model made from
+public data. It is not affiliated with or endorsed by the monasteries of Meteora or the Holy Metropolis of
+Stagoi and Meteora.
 
 VST is a registered trademark of Steinberg Media Technologies GmbH. Ableton and Live are trademarks of Ableton AG;
 Apple, Mac, macOS, Logic Pro and Apple Silicon are trademarks of Apple Inc. Other names are the property of their
 owners.
+
+## Provenance
+
+Meteora was conceived, researched and built by Trent Eriksen (Grashopr), starting in October 2026: the acoustic
+model from open terrain data, the plug-in, its panel, the listener and the ALIVE guide. Version 0.3.0 was released
+here on 6 November 2026 as a research preview for ADC 2026 in Bristol. Any port, fork or derived version of Meteora,
+by anyone and on any platform, originates from this work and must keep this attribution and the notices in this
+repository. The project page with the method and the roadmap:
+<https://grashopr-888.github.io/current-projects/projects/meteora/>
+
+## Citation
+
+```bibtex
+@software{eriksen2026meteora,
+  title   = {Meteora: a reverb computed from a real landscape},
+  author  = {Eriksen, Trent},
+  version = {0.3.0},
+  year    = {2026},
+  url     = {https://github.com/Grashopr-888/meteora-releases}
+}
+```
+
+GitHub's "Cite this repository" button reads the same entry from `CITATION.cff`.
