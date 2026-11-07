@@ -4,7 +4,8 @@
 Version 0.3.0 · research preview released for ADC 2026, the Audio Developer Conference, Bristol
 
 [![Download](https://img.shields.io/github/v/release/Grashopr-888/meteora-releases?label=download&color=2E7D32)](https://github.com/Grashopr-888/meteora-releases/releases/latest)
-[![Video](https://img.shields.io/badge/video-YouTube-c4302b)](https://www.youtube.com/watch?v=vMqgGGazfks)
+[![Plugin preview](https://img.shields.io/badge/plugin%20preview-YouTube-c4302b)](https://www.youtube.com/watch?v=vMqgGGazfks)
+[![Artistic preview](https://img.shields.io/badge/artistic%20preview-YouTube-c4302b)](https://www.youtube.com/watch?v=8rZie27Bz_8)
 [![Platform](https://img.shields.io/badge/macOS-Apple%20Silicon-454955)](#requirements)
 [![Formats](https://img.shields.io/badge/formats-VST3%20%C2%B7%20Standalone-22262E)](#install)
 [![Price](https://img.shields.io/badge/price-free-6FCF8F)](LICENSE.txt)
@@ -15,7 +16,7 @@ Version 0.3.0 · research preview released for ADC 2026, the Audio Developer Con
 <p align="center">
   <a href="https://www.youtube.com/watch?v=vMqgGGazfks"><img src="images/video-thumbnail.jpg" width="760"
      alt="The Meteora 0.3 panel with a play button: watch the preview video on YouTube"></a>
-  <br><sub><a href="https://www.youtube.com/watch?v=vMqgGGazfks">Watch the preview video</a></sub>
+  <br><sub><a href="https://www.youtube.com/watch?v=vMqgGGazfks">Watch the plugin preview</a> · <a href="https://www.youtube.com/watch?v=8rZie27Bz_8">Watch the artistic preview</a></sub>
 </p>
 
 ## About
@@ -31,6 +32,19 @@ Distances and directions follow the real geometry. Loudness and tone are plausib
 Version 0.3 also **listens**: it hears your attacks, density, brightness, pitch and noisiness, and can suggest
 settings or move them for you (OFF · LISTEN · SETTINGS · PATCH · ALIVE, from subtle to drastic). Whenever it leaves
 the physics, the panel says so with the EXTREME lamp.
+
+## Videos
+
+- **Plugin preview**: Meteora 0.3 in use:
+  <https://www.youtube.com/watch?v=vMqgGGazfks>
+- **Artistic preview**: Meteora 0.3, edited with photographs by the author:
+  <https://www.youtube.com/watch?v=8rZie27Bz_8>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=8rZie27Bz_8"><img src="images/artistic-preview.jpg" width="560"
+     alt="A frame from the artistic preview: the Meteora panel and its patch cables blended with a black and white photograph of the rock pillars of Meteora, with a play button"></a>
+  <br><sub><a href="https://www.youtube.com/watch?v=8rZie27Bz_8">Watch the artistic preview</a></sub>
+</p>
 
 ## The panel
 
