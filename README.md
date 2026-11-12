@@ -6,12 +6,19 @@ Version 0.3.0 · research preview released for ADC 2026, the Audio Developer Con
 [![Download](https://img.shields.io/github/v/release/Grashopr-888/meteora-releases?label=download&color=2E7D32)](https://github.com/Grashopr-888/meteora-releases/releases/latest)
 [![Plugin preview](https://img.shields.io/badge/plugin%20preview-YouTube-c4302b)](https://www.youtube.com/watch?v=vMqgGGazfks)
 [![Artistic preview](https://img.shields.io/badge/artistic%20preview-YouTube-c4302b)](https://www.youtube.com/watch?v=8rZie27Bz_8)
+[![Slides](https://img.shields.io/badge/slides-ADC%202026%20PDF-5A33A0)](slides/Meteora-ADC2026-slides.pdf)
 [![Platform](https://img.shields.io/badge/macOS-Apple%20Silicon-454955)](#requirements)
 [![Formats](https://img.shields.io/badge/formats-VST3%20%C2%B7%20Standalone-22262E)](#install)
 [![Price](https://img.shields.io/badge/price-free-6FCF8F)](LICENSE.txt)
 [![Licence](https://img.shields.io/badge/licence-freeware%2C%20closed%20source-7F8592)](LICENSE.txt)
 [![Data](https://img.shields.io/badge/site%20data-ODbL-7F8592)](DATA-NOTICES.md)
 [![Project page](https://img.shields.io/badge/project-page-6FCF8F)](https://grashopr-888.github.io/current-projects/projects/meteora/)
+
+<p align="center">
+  <a href="slides/Meteora-ADC2026-slides.pdf"><img src="slides/01-cover.jpg" width="760"
+     alt="Title slide of the Meteora presentation for ADC 2026, the audio.dev Conference, Bristol and online: Meteora, a reverb computed from a real landscape, Trent Eriksen"></a>
+  <br><sub>Released for <a href="https://audio.dev/">ADC 2026</a>, the Audio Developer Conference, Bristol · <a href="slides/Meteora-ADC2026-slides.pdf">the slides (PDF)</a></sub>
+</p>
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=vMqgGGazfks"><img src="images/video-thumbnail.jpg" width="760"
@@ -45,6 +52,18 @@ the physics, the panel says so with the EXTREME lamp.
      alt="A frame from the artistic preview: the Meteora panel and its patch cables blended with a black and white photograph of the rock pillars of Meteora, with a play button"></a>
   <br><sub><a href="https://www.youtube.com/watch?v=8rZie27Bz_8">Watch the artistic preview</a></sub>
 </p>
+
+## Slides (ADC 2026)
+
+The presentation of Meteora 0.3 for ADC 2026, ten slides: [Meteora-ADC2026-slides.pdf](slides/Meteora-ADC2026-slides.pdf).
+
+| | |
+|---|---|
+| <a href="slides/02-idea.jpg"><img src="slides/02-idea.jpg" alt="Slide 2, the idea: what if a reverb's space were a place you move through?"></a> | <a href="slides/03-pipeline.jpg"><img src="slides/03-pipeline.jpg" alt="Slide 3, the model: from open data to an echo"></a> |
+| <a href="slides/04-physics.jpg"><img src="slides/04-physics.jpg" alt="Slide 4, the physics: distance, direction and air are physical"></a> | <a href="slides/05-panel.jpg"><img src="slides/05-panel.jpg" alt="Slide 5, the instrument: a panel after the Buchla 200 series"></a> |
+| <a href="slides/06-listens.jpg"><img src="slides/06-listens.jpg" alt="Slide 6, new in 0.3: a reverb that listens"></a> | <a href="slides/07-video-plugin.jpg"><img src="slides/07-video-plugin.jpg" alt="Slide 7, the plugin preview"></a> |
+| <a href="slides/08-video-artistic.jpg"><img src="slides/08-video-artistic.jpg" alt="Slide 8, the artistic preview"></a> | <a href="slides/09-release.jpg"><img src="slides/09-release.jpg" alt="Slide 9, tested, then released free for ADC, with a QR code to the download"></a> |
+| <a href="slides/10-next.jpg"><img src="slides/10-next.jpg" alt="Slide 10, toward Meteora 1.0, and the data credits"></a> | |
 
 ## The panel
 
@@ -199,6 +218,7 @@ Open an issue on this repository's
 | `DATA-NOTICES.md` | the Copernicus and OpenStreetMap notices; the site data inside the plug-in is open under the ODbL |
 | `THIRD-PARTY-NOTICES.txt` | JUCE, three.js and the other components inside the plug-in, with their full licence texts |
 | `CHANGELOG.md` | what each version changed |
+| `slides/` | the ADC 2026 presentation: the PDF and an image of each slide |
 | `CITATION.cff` | how to cite Meteora |
 | Releases | the plug-in itself, with its SHA-256 checksum |
 
